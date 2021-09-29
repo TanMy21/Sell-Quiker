@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
+import AppTextInput from "./app/components/AppTextInput";
 // import AccountScreen from "./app/screens/AccountScreen";
-import ListingsScreen from "./app/screens/ListingsScreen";
+// import ListingsScreen from "./app/screens/ListingsScreen";
 // import { View, SafeAreaView } from "react-native";
 // import AppButton from "./app/components/AppButton";
 // import Card from "./app/components/Card";
@@ -19,7 +20,8 @@ export default function App() {
     // <ListingDetailsScreen />
     // <MessagesScreen />
     // <AccountScreen />
-    <ListingsScreen />
+    // <ListingsScreen />
+    <AppTextInput />
     );
 }
 
