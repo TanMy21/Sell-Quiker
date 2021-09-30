@@ -1,46 +1,33 @@
-import { StatusBar } from "expo-status-bar";
-import React, { useState } from "react";
-import AppTextInput from "./app/components/AppTextInput";
+import React from "react";
+import Screen from "./app/components/Screen";
 // import AccountScreen from "./app/screens/AccountScreen";
-// import ListingsScreen from "./app/screens/ListingsScreen";
-// import { View, SafeAreaView } from "react-native";
-// import AppButton from "./app/components/AppButton";
-// import Card from "./app/components/Card";
 // import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+// import ListingEditScreen from "./app/screens/ListingEditScreen";
+// import ListingsScreen from "./app/screens/ListingsScreen";
+// import LoginScreen from "./app/screens/LoginScreen";
+// import Card from "./app/components/Card";
 // import MessagesScreen from "./app/screens/MessagesScreen";
+// import RegisterScreen from "./app/screens/RegisterScreen";
 // import ViewImageScreen from "./app/screens/ViewImageScreen";
 // import WelcomeScreen from "./app/screens/WelcomeScreen";
-import Screen from "./app/components/Screen";
-import AppPicker from "./app/components/AppPicker";
-
-const categories = [
-  { label: "Furniture", value: 1 },
-  { label: "Clothing", value: 2 },
-  { label: "Cameras", value: 3 },
-];
 
 export default function App() {
-
-  const [category, setCategory] = useState(categories[0]);
-
-
   return (
-    // <WelcomeScreen />
-    // <ViewImageScreen />
-    // <Card title="Title" subTitle="sub title" image={require("./app/assets/")}/>
-    // <ListingDetailsScreen />
-    // <MessagesScreen />
-    // <AccountScreen />
-    // <ListingsScreen />
     <Screen>
-      <AppPicker
-        selectedItem={category}
-        onSelectItem={(item) => setCategory(item)}
-        items={categories}
-        icon="apps"
-        placeholder="Category"
-      />
-      <AppTextInput icon="email" placeholder="Email" />
+      {/* <AccountScreen /> */}
+      {/* <ListingDetailsScreen /> */}
+      {/* <ListingEditScreen /> */}
+      {/* <ListingsScreen /> */}
+      {/* <LoginScreen /> */}
+      {/* <MessagesScreen /> */}
+      {/* <RegisterScreen /> */}
+      {/* <ViewImageScreen /> */}
+      {/* <WelcomeScreen /> */}
+      {/* <Card
+        title="Title"
+        subTitle="sub title"
+        image={require("./app/assets/table.jpg")}
+      />  */}
     </Screen>
   );
 }
