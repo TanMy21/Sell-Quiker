@@ -1,8 +1,8 @@
 import React from "react";
 import Screen from "./app/components/Screen";
 // import AccountScreen from "./app/screens/AccountScreen";
-// import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
-// import ListingEditScreen from "./app/screens/ListingEditScreen";
+import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import ListingEditScreen from "./app/screens/ListingEditScreen";
 // import ListingsScreen from "./app/screens/ListingsScreen";
 // import LoginScreen from "./app/screens/LoginScreen";
 // import Card from "./app/components/Card";
@@ -16,13 +16,13 @@ export default function App() {
     <Screen>
       {/* <AccountScreen /> */}
       {/* <ListingDetailsScreen /> */}
-      {/* <ListingEditScreen /> */}
+      <ListingEditScreen />
       {/* <ListingsScreen /> */}
       {/* <LoginScreen /> */}
       {/* <MessagesScreen /> */}
       {/* <RegisterScreen /> */}
       {/* <ViewImageScreen /> */}
-      <WelcomeScreen />
+      {/* <WelcomeScreen /> */}
       {/* <Card
         title="Title"
         subTitle="sub title"
