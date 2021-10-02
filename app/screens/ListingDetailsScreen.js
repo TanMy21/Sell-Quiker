@@ -1,6 +1,5 @@
 import React from "react";
-import { View, Image, StyleSheet } from "react-native";
-
+import { View, StyleSheet, Image } from "react-native";
 import colors from "../config/colors";
 import ListItem from "../components/lists/ListItem";
 import AppText from "../components/AppText";
